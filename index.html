@@ -6,9 +6,52 @@
     <title>Document</title>
 </head>
 <body>
-    <h1><div>🏠성수연의 HTML 포트폴리오</div></h1>
+    <header>
+        <h1><div>🏠성수연의 HTML 포트폴리오</div></h1>
     <img src="" alt="">
     <p>안녕하세요! 저는 <strong>성수연</strong>입니다.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="animal.html" target="_blank">🐾 동물 소개</a></li>
+            <li><a href="book.html" target="_blank">📚 독서 목록</a></li>
+            <li><a href="movie.html" target="_blank">🎞️ 영화 리뷰</a></li>
+            <li><a href="recipe.html" target="_blank">🍽️ 레시피</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <h2>👋 자기소개</h2>
+            <p>대전에 살고 있고 방과후 HTML 수업을 듣고 있어요!</p>
+        </section>
+        <section>
+            <h2>🗂️ 나의 작품 목록</h2>
+            <ul>
+                <li><a href="animal.html" target="_blank">🐾 동물 소개 페이지</a></li>
+                <li><a href="book.html" target="_blank">📚 나의 독서 목록</a></li>
+                <li><a href="movie.html" target="_blank">🎞️ 영화 리뷰 페이지</a></li>
+                <li><a href="recipe.html" target="_blank">🍽️ 나만의 레시피</a></li>
+            </ul>
+        </section>
+        <h2>💬 방문자 메모</h2>
+        <p>이름</p>
+        <form action="">
+            <input type="text" value="이름을 입력하세요">
+            <p>방문 경로</p>
+            <select name="" id="">
+                <option value="">직접방문</option>
+                <option value="">검색</option>
+                <option value="">추천</option>
+            </select>
+            <p>메모</p>
+            <textarea name="" id="" cols="40" rows="5" placeholder="방문 소감을 남겨주세요😄"></textarea>
+            <div><input type="button" value="메모 남기기 ✉️">
+            </div>
+        </form>
+    </main>
+    <footer>성수연. 바이브코딩. 2026년</footer>
+
     <h2><div>🗂️작품 목록</div></h2>
     <p><b>HTML 실습 작품 모음</b></p>
     <table border="1">
@@ -66,21 +109,6 @@
             </tr>
         </tfoot>
     </table>
-    <h2><div>🛠️ 배운 태그</div></h2>
-    <ul>
-        <li>텍스트 : h1~h6, strong, em, mark...</li>
-        <li>목록 : ul, ol, li</li>
-        <li>링크/이미지 : a, img</li>
-        <li><mark>표 : table, thead, tbody, tfoot, tr, th, td, colspan, rowspan</mark></li>
-        <li>구조 : div, span</li>
-    </ul>
-    <h2><div>🔗 유용한 링크</div></h2>
-    <ol>
-        <li>MDN Web Docs - HTML 공식 문서</li>
-        <li>W3Schools - HTML 튜토리얼</li>
-        <li>Can I Use - 브라우저 호환성 확인</li>
-    </ol>
-    <hr>
-    <p><small>성수연, 바이브코딩, 2026년</small></p>
+    
 </body>
 </html>
